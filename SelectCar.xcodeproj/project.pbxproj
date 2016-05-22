@@ -12,6 +12,14 @@
 		D8EA4E981CF1F1BC00E51530 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D8EA4E961CF1F1BC00E51530 /* Main.storyboard */; };
 		D8EA4E9A1CF1F1BC00E51530 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D8EA4E991CF1F1BC00E51530 /* Assets.xcassets */; };
 		D8EA4E9D1CF1F1BC00E51530 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D8EA4E9B1CF1F1BC00E51530 /* LaunchScreen.storyboard */; };
+		D8EA4EAD1CF1F25000E51530 /* porsche-boxter.jpg in Resources */ = {isa = PBXBuildFile; fileRef = D8EA4EA51CF1F25000E51530 /* porsche-boxter.jpg */; };
+		D8EA4EAE1CF1F25000E51530 /* porsche-911.jpg in Resources */ = {isa = PBXBuildFile; fileRef = D8EA4EA61CF1F25000E51530 /* porsche-911.jpg */; };
+		D8EA4EAF1CF1F25000E51530 /* lamborghini-huracan.jpg in Resources */ = {isa = PBXBuildFile; fileRef = D8EA4EA71CF1F25000E51530 /* lamborghini-huracan.jpg */; };
+		D8EA4EB01CF1F25000E51530 /* lamborghini-veneno.jpg in Resources */ = {isa = PBXBuildFile; fileRef = D8EA4EA81CF1F25000E51530 /* lamborghini-veneno.jpg */; };
+		D8EA4EB11CF1F25000E51530 /* lamborghini-aventador.jpg in Resources */ = {isa = PBXBuildFile; fileRef = D8EA4EA91CF1F25000E51530 /* lamborghini-aventador.jpg */; };
+		D8EA4EB21CF1F25000E51530 /* tesla-model-x.jpg in Resources */ = {isa = PBXBuildFile; fileRef = D8EA4EAA1CF1F25000E51530 /* tesla-model-x.jpg */; };
+		D8EA4EB31CF1F25000E51530 /* tesla-model-s.jpg in Resources */ = {isa = PBXBuildFile; fileRef = D8EA4EAB1CF1F25000E51530 /* tesla-model-s.jpg */; };
+		D8EA4EB41CF1F25000E51530 /* background.jpeg in Resources */ = {isa = PBXBuildFile; fileRef = D8EA4EAC1CF1F25000E51530 /* background.jpeg */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -22,6 +30,14 @@
 		D8EA4E991CF1F1BC00E51530 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		D8EA4E9C1CF1F1BC00E51530 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		D8EA4E9E1CF1F1BC00E51530 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		D8EA4EA51CF1F25000E51530 /* porsche-boxter.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "porsche-boxter.jpg"; sourceTree = "<group>"; };
+		D8EA4EA61CF1F25000E51530 /* porsche-911.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "porsche-911.jpg"; sourceTree = "<group>"; };
+		D8EA4EA71CF1F25000E51530 /* lamborghini-huracan.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "lamborghini-huracan.jpg"; sourceTree = "<group>"; };
+		D8EA4EA81CF1F25000E51530 /* lamborghini-veneno.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "lamborghini-veneno.jpg"; sourceTree = "<group>"; };
+		D8EA4EA91CF1F25000E51530 /* lamborghini-aventador.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "lamborghini-aventador.jpg"; sourceTree = "<group>"; };
+		D8EA4EAA1CF1F25000E51530 /* tesla-model-x.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "tesla-model-x.jpg"; sourceTree = "<group>"; };
+		D8EA4EAB1CF1F25000E51530 /* tesla-model-s.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "tesla-model-s.jpg"; sourceTree = "<group>"; };
+		D8EA4EAC1CF1F25000E51530 /* background.jpeg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = background.jpeg; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -54,6 +70,7 @@
 		D8EA4E911CF1F1BC00E51530 /* SelectCar */ = {
 			isa = PBXGroup;
 			children = (
+				D8EA4EA41CF1F23700E51530 /* Resource */,
 				D8EA4E921CF1F1BC00E51530 /* AppDelegate.swift */,
 				D8EA4E941CF1F1BC00E51530 /* ViewController.swift */,
 				D8EA4E961CF1F1BC00E51530 /* Main.storyboard */,
@@ -62,6 +79,21 @@
 				D8EA4E9E1CF1F1BC00E51530 /* Info.plist */,
 			);
 			path = SelectCar;
+			sourceTree = "<group>";
+		};
+		D8EA4EA41CF1F23700E51530 /* Resource */ = {
+			isa = PBXGroup;
+			children = (
+				D8EA4EA51CF1F25000E51530 /* porsche-boxter.jpg */,
+				D8EA4EA61CF1F25000E51530 /* porsche-911.jpg */,
+				D8EA4EA71CF1F25000E51530 /* lamborghini-huracan.jpg */,
+				D8EA4EA81CF1F25000E51530 /* lamborghini-veneno.jpg */,
+				D8EA4EA91CF1F25000E51530 /* lamborghini-aventador.jpg */,
+				D8EA4EAA1CF1F25000E51530 /* tesla-model-x.jpg */,
+				D8EA4EAB1CF1F25000E51530 /* tesla-model-s.jpg */,
+				D8EA4EAC1CF1F25000E51530 /* background.jpeg */,
+			);
+			name = Resource;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -123,9 +155,17 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				D8EA4EAE1CF1F25000E51530 /* porsche-911.jpg in Resources */,
+				D8EA4EB41CF1F25000E51530 /* background.jpeg in Resources */,
+				D8EA4EB31CF1F25000E51530 /* tesla-model-s.jpg in Resources */,
+				D8EA4EAF1CF1F25000E51530 /* lamborghini-huracan.jpg in Resources */,
 				D8EA4E9D1CF1F1BC00E51530 /* LaunchScreen.storyboard in Resources */,
 				D8EA4E9A1CF1F1BC00E51530 /* Assets.xcassets in Resources */,
+				D8EA4EB21CF1F25000E51530 /* tesla-model-x.jpg in Resources */,
+				D8EA4EAD1CF1F25000E51530 /* porsche-boxter.jpg in Resources */,
+				D8EA4EB11CF1F25000E51530 /* lamborghini-aventador.jpg in Resources */,
 				D8EA4E981CF1F1BC00E51530 /* Main.storyboard in Resources */,
+				D8EA4EB01CF1F25000E51530 /* lamborghini-veneno.jpg in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
